@@ -1,3 +1,4 @@
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 ss = StandardScaler()
+ohe = OneHotEncoder()
